@@ -1,0 +1,21 @@
+[package]
+name = "simple-calculator-rs"
+version = "0.1.0"
+authors = ["XDream8 <WolfsDream@proton.me>"]
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/XDream8/simple-calculator-rs"
+description = "a simple calculator written with rust"
+
+[dependencies]
+
+[profile.release]
+lto = "thin"
+
+[profile.optimized]
+inherits = "release"
+lto = "fat"
+codegen-units = 1
+strip = true
+opt-level = 3
