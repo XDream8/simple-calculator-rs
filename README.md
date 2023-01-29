@@ -1,6 +1,6 @@
 <div align="center">
-    <h1>file-rs</h1>
-    <p>a tool for determining file types, an alternative to file</p>
+    <h1>simple-calculator-rs</h1>
+    <p>a simple calculator</p>
 </div>
 
 ## usage
